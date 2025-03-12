@@ -1,0 +1,100 @@
+.Contactinfo {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    background-color: #FEDD00;
+    color: #fff;
+}
+
+.form-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.form-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.form-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.sendemail {
+    width: 100%;
+}
+
+.sendemail label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.sendemail input,
+.sendemail textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.sendemail button {
+    width: 100%;
+    padding: 15px;
+    background-color: #FEDD00;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sendemail button:hover {
+    background-color: #e0c200;
+}
+
+.illustration-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.illustration-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.popup-content {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FEDD00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.popup-content button:hover {
+    background-color: #e0c200;
+}

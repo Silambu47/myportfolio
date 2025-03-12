@@ -1,0 +1,117 @@
+.resume-container {
+    /* max-width: 1000px; */
+    padding: 20px;
+    background-color: #f4f4f9;
+    background: linear-gradient(135deg, #2b2b2b 0%, #1e1e1e 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial, sans-serif';
+    color: #e4dede;
+}
+
+.resume-header {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resume-name {
+    font-size: 2em;
+    color: #0073b1;
+}
+
+.resume-contact {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.resume-contact a {
+    color: #0073b1;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.resume-contact a:hover {
+    text-decoration: underline;
+}
+
+.resume-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.resume-section-title {
+    color: #0073b1;
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+    border-bottom: 2px solid #0073b1;
+    padding-bottom: 5px;
+}
+
+.resume-item {
+    margin-bottom: 20px;
+}
+
+.resume-date {
+    color: #555;
+    font-style: italic;
+}
+
+.resume-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resume-list li {
+    margin-bottom: 10px;
+}
+
+ul.resume-list li:before {
+    content: "• ";
+    color: #0073b1;
+}
+
+@media (max-width: 800px) {
+    .resume-columns {
+        grid-template-columns: 1fr;
+    }
+}
+
+.download_button {
+    position: relative;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    /* transition: background 0.3s ease; */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s eas
+}
+
+.download_button:hover {
+    background: #323333;
+    color: #f1f1f1;
+    scale: 1;
+}
+
+.download_button::after {
+    content: url('https://image.shutterstock.com/image-vector/download-icon-260nw-1151169037.jpg'); /* Placeholder icon URL */
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.download_button:hover::after {
+    opacity: 1;
+}
+
+

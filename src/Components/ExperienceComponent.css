@@ -1,0 +1,59 @@
+
+.experience {
+    color: #dcdcdc;
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.exp-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.exp-content h2 {
+    margin-bottom: 10px;
+    color: #999999;
+}
+
+.exp_role h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.exp_role h3 a {
+    text-decoration: none;
+    color: #1db954;
+    margin-left: 5px;
+}
+
+.exp_role p {
+    margin-top: 5px;
+    color: #dcdcdc;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.skills span {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #333333;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.container_box {
+    background-color: #0d0d0d;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
